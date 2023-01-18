@@ -21,7 +21,8 @@ class TestChallenge
      * @param int $expectedResult
      * @return string|Throwable
      */
-    public function test_find_unique_value_in_array(array $arrayNum, float $expectedResult) {
+    public function test_find_unique_value_in_array(array $arrayNum, float $expectedResult) 
+    {
         $returnedValue = $this->challengeObject->findUniqValue($arrayNum);
 
         if(assert($returnedValue == $expectedResult)){
@@ -36,8 +37,8 @@ class TestChallenge
      * @param string $expectedResult
      * @return string|Throwable
      */
-    public function test_spin_words_bigger_than_five_letters(string $strSentence, string $expectedResult) {
-        
+    public function test_spin_words_bigger_than_five_letters(string $strSentence, string $expectedResult) 
+    { 
         $returnedValue = $this->challengeObject->spinWords($strSentence);
 
         if(assert($returnedValue == $expectedResult)){
@@ -53,8 +54,8 @@ class TestChallenge
      * @param int $expectedResult
      * @return string|Throwable
      */
-    public function test_amount_of_jumps(int $start, int $end, int $expectedResult) {
-        
+    public function test_amount_of_jumps(int $start, int $end, int $expectedResult) 
+    {  
         $returnedValue = $this->challengeObject->amountOfJumps($start, $end);
 
         if(assert($returnedValue == $expectedResult)){
