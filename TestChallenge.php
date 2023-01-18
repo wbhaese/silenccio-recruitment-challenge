@@ -47,7 +47,7 @@ class TestChallenge
     }
 
     /**
-     * Check if thereturned value of amount of jumps are right
+     * Check if the returned value of amount of jumps are right
      *
      * @param int $start
      * @param int $end
