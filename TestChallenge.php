@@ -18,7 +18,7 @@ class TestChallenge
      * Test the returned value when get unique number from an array
      *
      * @param array $arrayNum
-     * @param int $expectedResult
+     * @param float $expectedResult
      * @return string|Throwable
      */
     public function test_find_unique_value_in_array(array $arrayNum, float $expectedResult) 
